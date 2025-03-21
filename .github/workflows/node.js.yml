@@ -42,7 +42,7 @@ jobs:
     - name: Shell 상의 EC2, Docker compose 실행
       run: |
         sudo ssh -r -o StrictHostKeyChecking=no ubuntu@${{ secrets.HOST }} << 'EOF'
-          # 여러줄의 명령어를 SSH를 통해 원격으로 EC2 서버에 전송할 수 있도록 함, EOF 로 끝을 알림
+          # 여러줄의 명령어를 SSH를 통해 원격으로 EC2 서버에 전송할 수 있도록 함, EOF 로 끝을 알림 
           cd /home/ubuntu/docker_next
           docker-compose down
           docker-compose up -d --build
