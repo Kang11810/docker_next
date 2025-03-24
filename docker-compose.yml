@@ -1,11 +1,11 @@
 services:
   frontend:
     build:
-      context: .
+      context: ./
       dockerfile: Dockerfile
     container_name: frontend
-    volumes:
-      - static-files:/app/out
+    #    volumes:
+    #      - static-files:/app/out
     networks:
       - sist_net
   nginx:
@@ -14,16 +14,16 @@ services:
       - sist_net
     restart: always
     volumes:
-      - static-files:/usr/share/nginx/html:ro
+      #  - static-files:/usr/share/nginx/html:ro
       - ./conf/default.conf:/etc/nginx/nginx.conf:ro
     ports:
       - "80:80"
     depends_on:
       - frontend
-
-volumes:
-  static-files:
+#volumes:
+#  static-files:
 
 networks:
   sist_net:
     driver: bridge
+    external: true
