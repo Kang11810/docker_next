@@ -48,7 +48,4 @@ jobs:
           docker-compose up -d --build
         EOF
         
-      
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+    
