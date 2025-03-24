@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/page.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"ctas\": \"page-module___8aEwW__ctas\",\n  \"footer\": \"page-module___8aEwW__footer\",\n  \"logo\": \"page-module___8aEwW__logo\",\n  \"main\": \"page-module___8aEwW__main\",\n  \"page\": \"page-module___8aEwW__page\",\n  \"primary\": \"page-module___8aEwW__primary\",\n  \"secondary\": \"page-module___8aEwW__secondary\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":["file://C%3A/My_Study/Docker_Study/work/docker_next_0321/src/app/page.js"],"sourcesContent":["import Image from \"next/image\";\nimport styles from \"./page.module.css\";\n\nexport default function Home() {\n  return (\n    <div className={styles.page}>\n      <h2>SIST</h2>\n      <hr/>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAW,8HAAA,CAAA,UAAM,CAAC,IAAI;;0BACzB,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;;;;;;;;;;;AAGP","debugId":null}}]
+}
